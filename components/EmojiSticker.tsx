@@ -7,7 +7,7 @@ import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 
 type Props = {
   imageSize: number;
-  stickerSource: string;
+  stickerSource: any;
 };
 
 export default function EmojiSticker({ imageSize, stickerSource }: Props) {
