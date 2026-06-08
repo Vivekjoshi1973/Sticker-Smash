@@ -17,7 +17,7 @@ export default function TabsLayout() {
     }}
     >
       <Tabs.Screen name="index" options={{
-        headerTitle:"my app",
+        headerTitle:"EmojiX",
         tabBarIcon:({focused,color}) => (
           <Ionicons
           name={focused ? "home-sharp" : "home-outline"}
